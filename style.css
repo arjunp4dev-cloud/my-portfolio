@@ -453,5 +453,20 @@ section {
         padding: 20px;
     }
 }
+/* Mobile resume note */
+.mobile-note {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    color: white;
+}
+
+/* Hide note on desktop */
+@media (min-width: 769px) {
+    .mobile-note {
+        display: none;
+    }
+}
+
 
 
